@@ -53,7 +53,6 @@ class EpsilonGreedyAgent(main_agent.Agent):
         
         # Обновление ценностей Q - это должно быть то же обновление, что и у вашего жадного агента выше
         # ВАШ КОД ЗДЕСЬ
-
         random_num = np.random.random()
 
         current_action = -1
